@@ -11,7 +11,6 @@ fn main() {
                 Ok(num) => num,
                 Err(_) => break,
             };
-
             if number == 0 {
                 println!("f(0) doesn't exist");
             } else if number == 1 {
@@ -19,7 +18,6 @@ fn main() {
             } else {
                 calculate_fibonacci(number);
             }
-
             break;
         }
     }
@@ -35,6 +33,5 @@ fn calculate_fibonacci(n: i32) {
         last = current;
         current = sum;
     }
-
     println!("f({n}) = {sum}");
 }

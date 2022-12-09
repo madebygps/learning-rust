@@ -5,6 +5,7 @@ fn main() {
     let (a, _) = t;
     // a = [1,1]
     // _ means ignore, in this case, we only care to destructure into a
-    println!("{}", a[0] + t.1[0]);
+    println!("{}", a[0] + t.1[0]  );
     // 1 + 3
+    // result = 4
 }
